@@ -1,0 +1,194 @@
+/* Tambahkan kode CSS kalian di file ini */
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Styling for header and navigation */
+header {
+    background-color: #ef53b6;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: rgb(118, 205, 255);
+    cursor: pointer;
+  }
+
+/* Styling for hero section */
+#hero {
+    background-image: url('image/roman-kraft-0EVKn3-5JSU-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ef53b6;
+    font-size: xx-large;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-text {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-text p {
+ color: #fff;
+ font-size: x-large;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ef53b6;
+    color: #fff;
+    padding: 15px 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: smaller;
+    font-weight: normal;
+}
+
+.content {
+    background-color: rgb(251, 247, 243);
+    margin-top: 10px;
+}
+
+/* Styling for other sections */
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.abouts {
+    background-color: rgb(118, 205, 255);
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 55px;
+    color: #ef53b6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+img{
+    width: 600px;
+}
+
+.service {
+    background-color: rgb(118, 205, 255);
+    width: auto;
+    height: auto;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    max-width: 400px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#counseling{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Styling for contact form */
+
+label {
+    margin-bottom: 5px;
+}
+
+button{
+    padding: 8px 15px;
+    background-color: #ef53b6;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 12px;
+}
+
+#status{
+    float: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"]
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #ef53b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+}
